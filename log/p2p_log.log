@@ -1,0 +1,19 @@
+2022-03-22 18:13:47,533 INFO [root] [__init__.py(<module>:5)] - info
+2022-03-22 18:13:47,536 ERROR [root] [__init__.py(<module>:6)] - error
+2022-03-22 18:13:47,536 CRITICAL [root] [__init__.py(<module>:7)] - critical
+2022-03-22 18:13:48,326 INFO [root] [login.py(test005_getPhoneCode:59)] - get message = {'status': 200, 'description': '短信发送成功'}
+2022-03-22 18:13:48,466 INFO [root] [login.py(test006_getPhoneCode:74)] - get message = {'status': 100, 'description': '图片验证码错误'}
+2022-03-22 18:13:48,607 INFO [root] [login.py(test007_getPhoneCode:89)] - get message = {'status': 100}
+2022-03-22 18:13:48,749 INFO [root] [login.py(test008_getPhoneCode:101)] - get message = {'status': 100, 'description': '图片验证码错误'}
+2022-03-22 18:13:48,840 INFO [root] [login.py(test009_getPhoneCode:111)] - get message = {'status': 100, 'description': '图片验证码错误'}
+2022-03-22 18:13:49,122 INFO [root] [login.py(test010_register:127)] - get message = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-03-22 18:13:49,399 INFO [root] [login.py(test011_register:141)] - get message = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2022-03-22 18:13:49,602 INFO [root] [login.py(test012_register:155)] - get message = {'status': 100, 'description': '验证码错误!'}
+2022-03-22 18:13:49,807 INFO [root] [login.py(test013_register:169)] - get message = {'status': 100, 'description': '验证码错误'}
+2022-03-22 18:13:50,014 INFO [root] [login.py(test014_register:183)] - get message = {'status': 100, 'description': '手机已存在!'}
+2022-03-22 18:13:50,699 INFO [root] [login.py(test017_login_success:215)] - get message = {'status': 200, 'description': '登录成功'}
+2022-03-22 18:13:50,793 INFO [root] [login.py(test018_login_fail:220)] - get message = {'status': 100, 'description': '用户不存在'}
+2022-03-22 18:13:50,886 INFO [root] [login.py(test019_login_fail:225)] - get message = {'status': 100, 'description': '密码不能为空'}
+2022-03-22 18:13:50,991 INFO [root] [login.py(test020_login_fail:241)] - get message = {'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-03-22 18:13:51,049 INFO [root] [login.py(test020_login_fail:244)] - get message = {'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-03-22 18:13:51,112 INFO [root] [login.py(test020_login_fail:247)] - get message = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
