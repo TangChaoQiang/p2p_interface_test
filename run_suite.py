@@ -15,7 +15,8 @@ suite.addTest(unittest.makeSuite(trust_test))
 suite.addTest(unittest.makeSuite(work_flow))
 
 
-report_file = base_dir + "/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+# report_file = base_dir + "/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+report_file = base_dir + "/report/report.html"
 
 with open(report_file, "wb") as f:
     runner = HTMLTestRunner(f, title="p2p_金融项目", description="test")
